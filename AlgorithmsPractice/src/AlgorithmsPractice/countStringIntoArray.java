@@ -12,7 +12,6 @@ public class countStringIntoArray {
 
 		for (int i = 0; i < employeeInfo.length; i++) {
 				splitWord = employeeInfo[i];
-				
 			if (splitWord.endsWith("128")) {
 				count128 += 1;
 			} else {
