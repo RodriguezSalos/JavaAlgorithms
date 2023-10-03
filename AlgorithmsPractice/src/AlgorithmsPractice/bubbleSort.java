@@ -40,7 +40,7 @@ public class bubbleSort {
 			}
 		}
 		System.out.println("array_result after" + Arrays.toString(array1));
-		
+		System.out.println("abs" + Math.abs(-10));
 	}
 
 }
