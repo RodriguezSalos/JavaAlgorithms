@@ -8,7 +8,7 @@ public class level6_02_while_hasNextLine_Max_min {
 	      Scanner sc = new Scanner(System.in);
 	        int sum = 0;
 	        int max = 0;
-	        int min = 0;
+	        int min = 1000000;
 	        while (sc.hasNextInt()){
 	            int x = sc.nextInt();
 	            sum += x;
